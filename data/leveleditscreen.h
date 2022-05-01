@@ -30,7 +30,6 @@ public slots:
 
 private slots:
     void on_save_clicked();
-    void on_exit_clicked();
     void on_back_clicked();
 
 private:

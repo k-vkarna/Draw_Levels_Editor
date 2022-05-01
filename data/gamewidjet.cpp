@@ -24,7 +24,7 @@ void GameWidjet::on_clicked(QPointF itemCenter) {
         m_level.startPoint.setX(x);
         m_level.startPoint.setY(y);
         m_level.number = LEVEL_DB.levelsAmount() + new_levels;
-        emit update_level_info(QString::number(m_level.width) + " " + QString::number(m_level.height) +
+        emit update_level_info(QString::number(m_level.height) + " " + QString::number(m_level.width) +
                                " " + QString::number(x) + "," + QString::number(y));
         emit update_level(m_level);
         m_line.addPoint(itemCenter);
@@ -72,14 +72,13 @@ void GameWidjet::load(Level level) {
     }
 }
 
-void GameWidjet::load_new_level(int width, int height) {
+void GameWidjet::load_new_level(int height, int width) {
 
-    /* где-то перепутал */
-    m_level.width = height;
-    m_level.height = width;
+    m_level.width = width;
+    m_level.height = height;
 
-    for (int i = 0; i < width; ++i) {
-        for (int j = 0; j < height; ++j) {
+    for (int i = 0; i < m_level.height; ++i) {
+        for (int j = 0; j < m_level.width; ++j) {
             Item *item = new Item(this);
             item->moveBy(i*(item->pos().x()+item->boundingRect().width()),
                          j*(item->pos().y()+item->boundingRect().height()));

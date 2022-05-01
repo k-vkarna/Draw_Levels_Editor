@@ -14,7 +14,7 @@ public slots:
     virtual void on_clicked(QPointF itemCenter);
     virtual void on_rightClicked();
     void load(Level level);
-    void load_new_level(int widht, int height);
+    void load_new_level(int height, int width);
     int getLevelNumber();
 private slots:
     void resizeEvent(QResizeEvent *);

@@ -6,7 +6,6 @@
 #include "inputlevel.h"
 #include "gamewidjet.h"
 #include "screenstack.h"
-#include "savepromt.h"
 
 
 class Screen : public screenstack

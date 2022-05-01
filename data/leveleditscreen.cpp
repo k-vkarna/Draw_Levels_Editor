@@ -9,6 +9,8 @@ LevelEditScreen::LevelEditScreen(QWidget *parent) :
 {
     ui->setupUi(this);
     ui->level_information->setReadOnly(true);
+
+    connect(ui->exit, SIGNAL(clicked(bool)), SIGNAL(exit()));
 }
 
 LevelEditScreen::~LevelEditScreen()
@@ -163,17 +165,4 @@ void LevelEditScreen::on_back_clicked()
     }
     else
         emit back();
-}
-
-void LevelEditScreen::on_exit_clicked()
-{
-    if (!saved_file_or_not()){
-        QMessageBox::StandardButton reply;
-        reply = QMessageBox::question(this, "LevelEditor", "Вы уверены? Все несохраненные данные будут потеряны.",
-                                      QMessageBox::Ok|QMessageBox::Cancel);
-        if (reply == QMessageBox::Ok)
-            emit exit();
-    }
-    else
-        emit exit();
 }
