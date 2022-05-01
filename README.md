@@ -5,6 +5,6 @@
 ## LevelEdit app
 Below is the demo by running the program LevelEdit
 <p align="center">
-  <img src="demo/LevelEdit.gif" width=600><br/>
+  <img src="demo/LevelEdit.gif" width=704><br/>
   <i>LevelEdit app demo</i>
 </p>
