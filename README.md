@@ -25,5 +25,5 @@ All the Windows systems still supported by Microsoft are supported by LevelEdito
 
 For simplicity, prebuilt archives with all the dependencies are available for Windows:
 
-- [`<b>Draw_Levels_Editor`][github-download]
+- [`Draw_Levels_Editor`][github-download]
 
