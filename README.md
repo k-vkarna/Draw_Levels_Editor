@@ -19,7 +19,9 @@ Below is the demo by running the program LevelEditor:
 
 All the Windows systems still supported by Microsoft are supported by LevelEditor.
 
-## Use LevelEditor
+## Download
 
-You need to download <a href="release">release</a> folder and use LevelEditor.exe to launch and test the application.
+For simplicity, prebuilt archives with all the dependencies are available for Windows:
+
+- [`Draw_Levels_Editor`][github-download]
 
