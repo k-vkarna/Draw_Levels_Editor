@@ -23,7 +23,7 @@ All the Windows systems still supported by Microsoft are supported by LevelEdito
 
 [github-download]: https://github.com/k-vkarna/Draw_Levels_Editor/releases
 
-For simplicity, prebuilt archives with all the dependencies are available for Windows:
+For simplicity, prebuilt archive with all the dependencies is available for Windows:
 
 - [`Draw_Levels_Editor`][github-download]
 
