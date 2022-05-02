@@ -15,6 +15,10 @@ Below is the demo by running the program LevelEditor:
   <i>LevelEditor app demo</i>
 </p>
 
+## Supported OS
+
+All the Windows systems still supported by Microsoft are supported by LevelEditor.
+
 ## Use LevelEditor
 
 You need to download <a href="release">release</a> folder and use LevelEditor.exe to launch and test the application.
