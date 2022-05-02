@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Here is my c++ source code for LevelEditor - app, designed for edit and create levels for <a href="https://bitbucket.org/rrrfer-admin/drawing">"drawing" game.</a>
+Here is my c++ source code for LevelEditor - app, designed for edit and create levels for <a href="https://bitbucket.org/rrrfer-admin/drawing">"drawing"</a> game.
 
 ## LevelEditor app
 
