@@ -2,9 +2,13 @@
  <h1 align="center">DrawLevelsEditor</h1>
 </p>
 
-## LevelEdit app
-Below is the demo by running the program LevelEdit
+## Introduction
+Here is my c++ source code for LevelEditor - app, designed for edit and create levels for <a href="https://bitbucket.org/rrrfer-admin/drawing">"drawing" game.</a>
+
+## LevelEditor app
+In order to operate with levels, you need to have a "levels.db" file in the same folder as the LevelEditor application. You can use <a href="levels.db">this</a> or create your own. At the main window of the application, you can select any level to edit, if it exists, or create a new one. You can use the left mouse button to add a new point, or the right mouse button to remove the last point of the level.
+Below is the demo by running the program LevelEditor:
 <p align="center">
   <img src="demo/LevelEdit.gif" width=704><br/>
-  <i>LevelEdit app demo</i>
+  <i>LevelEditor app demo</i>
 </p>
